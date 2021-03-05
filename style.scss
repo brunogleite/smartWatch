@@ -1,0 +1,50 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+.nav-bar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 90%;
+    margin: 0 auto;
+    min-height: 10vh;
+
+    .logo{
+        font-size: 1.6rem;
+        color: #c73c56;
+    }
+    .nav-links{
+        display: flex;
+        justify-content: space-between;
+        width: 40%;
+        list-style: none;
+        li a{
+          text-decoration: none;  
+          color: black;
+        }
+    }
+    .icon{
+        display: flex;
+        .shop-icon{
+            width: 35px;
+            height: 35px;
+            align-items: center;
+            object-fit: contain;
+        }
+        .circle{
+            width: 50px;
+            height: 50px;
+            background-color: #c73c56;
+            position: absolute;
+            z-index: -1;
+            border-radius: 50%;
+            right: 85px;
+            top: 25px;
+        }
+    }
+
+}
