@@ -34,6 +34,7 @@
             height: 35px;
             align-items: center;
             object-fit: contain;
+
         }
         .circle{
             width: 50px;
@@ -185,5 +186,46 @@
         }
     }
 
-}
+    .middle{
+        width: 33%;
+        .middle-heading{
+            font-size: 1rem
+        }
+        #scroll{
+           .div-scroll{
+               display: flex;
+               margin-top: 2rem;
+               .star{
+                   margin-left: 1rem;
+                   &:hover{
+                       cursor: pointer;
+                   }
+               }
+           } 
+        }
+    }
 
+    .right2{
+        width: 33%;
+        display: flex;
+        .right-heading{
+            font-size: 1rem;
+
+        }
+        .right-right{
+            display: flex;
+            justify-content: center;
+            align-items: flex-end;
+            background-color:#c73c56 ;
+            width: 50%;
+            height: 50%;
+            .amazfit-right{
+                width: 200px;
+                height: 200px;
+                &::before{
+                    content: "SmartWatch";
+                }            
+        }
+    }
+ }
+}

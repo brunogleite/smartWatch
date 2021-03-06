@@ -256,4 +256,62 @@
 .second-content .left2 .card2 .sub-right2 p {
   margin-top: 1rem;
 }
+
+.second-content .middle {
+  width: 33%;
+}
+
+.second-content .middle .middle-heading {
+  font-size: 1rem;
+}
+
+.second-content .middle #scroll .div-scroll {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-top: 2rem;
+}
+
+.second-content .middle #scroll .div-scroll .star {
+  margin-left: 1rem;
+}
+
+.second-content .middle #scroll .div-scroll .star:hover {
+  cursor: pointer;
+}
+
+.second-content .right2 {
+  width: 33%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.second-content .right2 .right-heading {
+  font-size: 1rem;
+}
+
+.second-content .right2 .right-right {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+  background-color: #c73c56;
+  width: 50%;
+  height: 50%;
+}
+
+.second-content .right2 .right-right .amazfit-right {
+  width: 200px;
+  height: 200px;
+}
+
+.second-content .right2 .right-right .amazfit-right::before {
+  content: "SmartWatch";
+}
 /*# sourceMappingURL=style.css.map */
