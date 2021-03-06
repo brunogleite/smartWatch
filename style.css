@@ -68,4 +68,74 @@
   right: 85px;
   top: 25px;
 }
+
+.main-content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  min-height: 50vh;
+  width: 90%;
+  margin: 0 auto;
+}
+
+.main-content .left {
+  width: 50%;
+}
+
+.main-content .left .heading-main {
+  font-size: 4rem;
+}
+
+.main-content .left .heading-main .world {
+  color: #fff;
+  background-color: #c73c56;
+}
+
+.main-content .left .paragraph-main {
+  margin-top: 1rem;
+}
+
+.main-content .left .buy-btn {
+  padding: .75rem 1.75rem;
+  border-radius: 25px;
+  margin-top: 1rem;
+  border: none;
+  background-color: #c73c56;
+  color: #fff;
+}
+
+.main-content .right {
+  width: 50%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+}
+
+.main-content .right .main-photo {
+  width: 350px;
+  height: 350px;
+}
+
+.main-content .right .mini-circle {
+  width: 100px;
+  height: 100px;
+  background-color: #c73c56;
+  border-radius: 50%;
+}
+
+.main-content .right .mini-circle .view {
+  color: #fff;
+}
 /*# sourceMappingURL=style.css.map */

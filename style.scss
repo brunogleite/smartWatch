@@ -48,3 +48,52 @@
     }
 
 }
+
+.main-content{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    min-height: 50vh;
+    width: 90%;
+    margin: 0 auto;
+    .left{
+        width: 50%;
+        .heading-main{
+            font-size: 4rem;
+            .world{
+                color: #fff;
+                background-color: #c73c56;
+            }
+        }
+        .paragraph-main{
+            margin-top: 1rem ;
+        }
+        .buy-btn{
+            padding: .75rem 1.75rem;
+            border-radius: 25px;
+            margin-top: 1rem;
+            border: none;
+            background-color: #c73c56;
+            color: #fff;
+        }
+    }
+    .right{
+        width: 50%;
+        display: flex;
+        justify-content: center;
+        align-items: flex-end;
+        .main-photo{
+            width: 350px;
+            height: 350px;
+        }
+        .mini-circle{
+            width: 100px;
+            height: 100px;
+            background-color: #c73c56;
+            border-radius: 50% ;
+             .view{
+                 color: #fff;
+             }
+        }
+    }
+}
