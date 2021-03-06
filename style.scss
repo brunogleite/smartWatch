@@ -97,3 +97,92 @@
         }
     }
 }
+
+.second-content{
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+    margin: 0 auto;
+    margin-top: 3rem;
+    .left2{
+        width: 33%;
+        .product{
+            font-size: 1rem;
+            margin-bottom: 1rem;
+        }
+        .card{
+            display: flex;
+            flex-direction: column;
+            .card1{
+                display: flex;
+                .sub-left{
+                    .sub-background{
+                        background-color: #c73c56;
+                        width: 200px;
+                        height: 200px;
+                        border-radius: 20px;
+                        display: flex;
+                    }
+                    .sub-img{
+                        width: 100px;
+                        height: 100px;
+                        width: 100%;
+                        height: 100%;
+                        object-fit: contain;     
+                    }
+                }
+                .sub-right{
+                    margin: 0 1rem;
+                    .head{
+                        &::before{
+                            content: "01";
+                            color: #c73c56;
+                            margin: 0 1rem ;
+                        }
+                        font-size: 1rem 
+                    }
+                    p{
+                        margin-top: 1rem ;
+                    }
+                }
+            }
+            
+        }
+        .card2{
+            display: flex;
+            margin-top: 1.5rem;
+            .sub-left2{
+
+                .sub-background2{
+                    background-color: #c73c56;
+                    width: 200px;
+                    height: 200px;
+                    border-radius: 20px;
+                    display: flex;
+                }
+                .sub-img2{
+                    width: 100px;
+                    height: 100px;
+                    width: 100%;
+                    height: 100%;
+                    object-fit: contain;     
+                }
+            }
+            .sub-right2{
+               margin: 0 1rem;
+                .head2{
+                    &::before{
+                        content: "02";
+                        color: #c73c56;
+                        margin: 0 1rem ;
+                    }
+                    font-size: 1rem 
+                }
+                p{
+                    margin-top: 1rem ;
+                }
+            }
+        }
+    }
+
+}
